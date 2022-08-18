@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+address,
+cite,
+dfn,
+em,
+var,
+i {
+  font-style: normal;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+th {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+fieldset,
+img {
+  border: 0;
+}
+a,
+img {
+  -webkit-touch-callout: none;
+  color: #fff;
+}
+
+a,
+a:active,
+a:focus,
+a:hover,
+a:visited {
+  text-decoration: none;
+}
+input[type='password'],
+input[type='text'],
+textarea {
+  resize: none;
+  outline: 0;
+  -webkit-appearance: none;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  background: #fff;
+}
+
+html {
+  font-size: 100px;
+  width: 100%;
+}
+
+body {
+  font-size: 16px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-family: 'Aldrich', sans-serif;
+
+  /* overflow: hidden;
+  width: 100vw;
+  height: 100vh; */
+  /* background-image: url(../img/bg-grid.png), linear-gradient(#000208, #171e31);
+  background-position: 100% 100%; */
+  /* background-repeat: no-repeat; */
+}
+
+ul,
+ol {
+  list-style: none;
+  cursor: default;
+}
+
+/* 竖直方向排列 */
+.flexh {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+/* 水平方向排列 */
+.flexw {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* 单个物体在盒子内水平垂直排列 */
+.flexc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+html,
+body,
+#app {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}

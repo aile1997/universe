@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ThreebodyDAO</title>
+  </head>
+  <body>
+    <div id="app"></div>
+
+    <script src="/js/color.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chroma-js/2.0.3/chroma.min.js"></script>
+    <script type="module" src="/src/main.js"></script>
+    <script language="javascript">
+      //防止页面后退
+      history.pushState(null, null, document.URL)
+      window.addEventListener('popstate', function () {
+        history.pushState(null, null, document.URL)
+      })
+    </script>
+  </body>
+</html>
